@@ -58,7 +58,6 @@ public class PaymentController {
         for (ServiceInstance instance : instances ){
             log.info(instance.getInstanceId()+"\t"+instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getUri());
         }
-
         return discoveryClient;
     }
 
