@@ -20,6 +20,8 @@
       <module>cloud-provider-payment-consul8006</module>
     <module>cloud-consumer-order-consul80</module>
       <module>cloud-consumer-feign-order80</module>
+      <module>cloud-provider-hygtrix-payment8001</module>
+      <module>cloud-consumer-feign-hystrix-order80</module>
   </modules>
 
   <name>Maven</name>
